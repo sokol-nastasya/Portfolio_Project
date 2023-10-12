@@ -5,7 +5,7 @@ const textArea = document.getElementById('textarea');
 
 
 const downloadFile = () => {
-    window.open("https://docs.google.com/document/d/18iOIHr8cpb9kIU_H-IoJ0NxYRp8Moutl/edit");
+    window.open("#");
 };
 
 
