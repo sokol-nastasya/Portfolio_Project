@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Project</title>
+        <!-- style CSS -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Pixelify+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Josefin+Sans&family=Pixelify+Sans&display=swap" rel="stylesheet">
+       
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="heading">
+                    <h2>PORTFOLIO</h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+            <div class="check">
+                <div class="short-descrip">
+                    <img class="check_img" src="./img/portfolio_1.jpg" alt="Anastasiia">
+                </div>
+                <div class="contact-info">
+                    <h2>Contact info:</h2>
+                    <p>E-mail: <span>anastasiias798@gmail.com</span></p>
+                    <p>Phone: <span>08349538495</span></p>
+                    <p>Take time and watch <a href="https://github.com/sokol-nastasya"> my GitHub portfolio</a></p>
+                </div>
+            </div>
+        </header>
+        <section class="about-part">
+            <div class="about" id="about">
+                <h2>About me</h2>
+                <p>
+                    Hey there! I'm Anastasiia, a junior front-end developer with a passion for coding, sketching, drawing, Harry Potter, and Star Wars. <br>
+                    I'm all about crafting captivating websites and digital experiences. <br>
+                    My projects reflect my dedication to creating seamless user interfaces and enhancing website performance.<br>
+                    When I'm not coding or exploring the magical worlds of Hogwarts and a galaxy far, far away,<br>
+                     you can often find me sketching and bringing ideas to life on paper. Let's create some coding magic together! 🚀✨
+                </p>
+            </div>
+            <button onclick="downloadFile()">Download my CV</button>
+        </section>
+        <section>
+            <div class="projects" id="projects">
+                <h2>My projects</h2>
+                <p>Let me introduce my projects:</p>
+                <div class="gallery-projects">
+                    <div class="gallery">
+                        <img src="./img/company.jpg"><br>
+                        <span>Company project <a href="#">link to the GitHub</a></span>
+                    </div>
+                    <div class="gallery">
+                        <img src="./img/tea-1.jpg"><br>
+                        <span>Cozy tea project <a href="#">link to the GitHub</a></span>
+                    </div>
+                    <div class="gallery">
+                        <img src="./img/shop.jpg" ><br>
+                        <span>Shopping project <a href="#">link to the GitHub</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="knowledge" id="skills">
+            <h2>About my knowledge</h2>
+            <div class="skills">
+                <div class="main-skills">
+                    <img src="./img/icons8-html-100.png" alt="HTML">
+                    <img src="./img/icons8-css-100.png" alt="CSS">
+                    <img src="./img/icons8-js-100.png" alt="JS">
+                    <img src="./img/icons8-react-90.png" alt="React">
+                </div>
+                <div class="tools">
+                    <img src="./img/icons8-docker-100.png" alt="docer">
+                    <img src="./img/icons8-github-100.png" alt="github">
+                    <img src="./img/icons8-chrome-100.png" alt="chrome">
+                    <img src="./img/icons8-figma-100.png" alt="figma">
+                    <img src="./img/icons8-postman-is-the-only-complete-api-development-environment-96.png" alt="Postman">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-place">
+                <div class="footer-info">
+                    <h3>Social media:</h3>
+                    <a href="#"><img src="./img/icons8-facebook-150.png" alt="facebook"></a>
+                    <a href="#"><img src="./img/icons8-instagram-150.png" alt="instagram"></a>
+                </div>
+                <div class="back-form">
+                    <h3>Send feedback:</h3>
+                    <button id="modal_send">Leave Feedback</button>
+
+                    <div class="modal" id="modal">
+                        <div class="modal_title">
+                            <h2>Leave your feedback</h2>
+                        </div>
+                        <div class="modal_body">
+                            <textarea class="textarea" id="textarea" name="modal_area" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="modal_footer">
+                            <button class="send_btn" id="send_btn">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <p>E-mail: <span>anastasiias798@gmail.com</span></p>
+                    <p>Phone: <span>08349538495</span></p>
+                </div>
+            </div>
+        </footer>
+
+         <!-- JS  -->
+         <script src="./index.js"></script>
+    </body>
+</html>
